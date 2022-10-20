@@ -1,0 +1,14 @@
+[package]
+name = "rust-aws-cdk-demo"
+version = "0.1.0"
+edition = "2021"
+license = "MIT or Apache-2.0"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1"
+mime_guess = "2"
+# AWS libraries
+aws-config = "0.6"
+aws-sdk-s3 = "0.6"
+anyhow = "1.0"
