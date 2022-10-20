@@ -9,6 +9,8 @@ This repo is a demo on how to interact with the AWS Client via Rust SDK
 - Uploads a file to S3
 
 ### How to Run
-1. `export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>`
-2. `export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>`
-3. `cargo run`
+- Create a downloads folder 
+  `mkdir downloads` 
+- export `AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>`
+- export `AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>`
+- Run `cargo run`
